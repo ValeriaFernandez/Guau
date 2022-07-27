@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100% ;
+    height: 100px ;
+    background-color: rgb(211, 228, 241);
+    padding: 10px;
+    margin: 0px;
+}
+
+    .imagenresponsivah {
+        width: auto;
+        height: 100%;
+    }
+
+    .imagenresponsiva {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagen-iconos {
+        display: flex;
+        width: 50px;
+        justify-content: space-evenly;
+
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 40% ;
+        height: 100px ;
+        background-color: rgb(211, 228, 241);
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 60% ;
+        height: 100px ;
+        background-color: rgb(211, 228, 241);
+        padding: 30px;
+        margin: 0px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100% ;
+        height: 100px ;
+        background-color: rgb(211, 228, 241);
+        padding: 30px;
+        margin: 0px;
+    }
+
+        a {
+            font-family: 'Dosis', sans-serif;
+            font-size: 1.5em;
+            font-weight: 900;
+            text-align: center;
+            color: black;
+            text-shadow: none;
+            font-style: normal;
+            text-decoration: none;
+        }
+
+.nosotros {
+    background-image: url(img/fondo-nosotros\ .svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    h1 {
+        font-family: 'Lobster Two', cursive;
+        font-size: 3em;
+        font-weight: 900;
+        text-align: center;
+        color: black;
+        padding: 20px;
+        margin: 0px;
+        text-shadow: none;
+        font-style: normal;
+        text-decoration: none;
+    }
+
+.introduccion{  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100% ;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 30px;
+    margin: 0px;
+}
+
+    .info{  
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 50% ;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 30px;
+        margin: 0px;
+    }
+
+
+    .introduccion p {
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.5em;
+        font-weight: 900;
+        text-align: center;
+        color: black;
+        text-shadow: none;
+        font-style: normal;
+        text-decoration: none;
+    }
+
+    .imagen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 400px ;
+        height: 400px ;
+        background-color: coral;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 50%;
+        contain: content;
+        overflow: hidden;
+    }
+
+.mision-vision {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100% ;
+    height: auto;
+    background: linear-gradient(0deg, rgb(211, 228, 241), rgba(211, 228, 241, 0) );
+    padding: 60px;
+    margin: 0px;
+    
+}
+
+    .mision {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px ;
+        height: 400px;
+        background: linear-gradient(0deg, rgb(106, 114, 121), rgba(0, 175, 47, 0) ) ;
+        border-radius: 50%;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .vision {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px ;
+        height: 400px;
+        background: linear-gradient(0deg, rgb(106, 114, 121), rgba(0, 175, 47, 0) ) ;
+        border-radius: 50%;
+        padding: 30px;
+        margin: 0px;
+    }
+
+        .palabra {
+            font-family: 'Dosis', sans-serif;
+            font-size: 1em;
+            font-weight: 900;
+            text-align: center;
+            color: rgb(106, 114, 121);
+            text-shadow: none;
+            font-style: italic;
+            text-decoration: none;
+        }
+
+        p {
+            font-family: 'Dosis', sans-serif;
+            font-size: 1.5em;
+            font-weight: 900;
+            text-align: center;
+            color: black;
+            text-shadow: none;
+            font-style: normal;
+            text-decoration: none;
+        }
+
+
+
+        h2 {
+            font-family: 'Lobster Two', cursive;
+            font-size: 2.5em;
+            font-weight: 900;
+            text-align: center;
+            color: black;
+            padding: 0px;
+            margin: 0px;
+            text-shadow: none;
+            font-style: normal;
+            text-decoration: none;
+        }
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100% ;
+    height: 70px ;
+    background-color: rgb(211, 228, 241);
+    padding: 10px;
+   
+}
